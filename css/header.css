@@ -45,7 +45,7 @@ header{
 .layer-1{
     position: absolute;
     top: 50px;
-    right: 0;
+    right: -300px;
 }
 .layer-2{
     position: absolute;
