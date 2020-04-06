@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IKweb</title>
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header__nav">
+            <a href="#about" class="header__nav_link">Обо мне</a>
+            <a href="#work" class="header__nav_link">Портфолио</a>
+            <!-- <a href="#" class="header__nav_link">Ещё что-то</a> -->
+            <a href="#footer" class="header__nav_link">Контакты</a>
+        </div>
+        <div class="mobile__header">
+            <div class="mobile__nav">
+                <div class="mobile__nav-link">
+                    <a href="#about" class="mob__link">Обо мне</a>
+                    <a href="#work" class="mob__link">Портфолио</a>
+                    <!-- <a href="#" class="header__nav_link">Ещё что-то</a> -->
+                    <a href="#footer" class="mob__link">Контакты</a>
+                </div>
+            </div>
+            <div class="mobile__prev">
+                <div class="mobile__title">
+                    <span>Здравствуй, друг!</span>
+                </div>
+                <div class="mobile__text">
+                    <p>Я занимаюсь веб разработкой: сайты, лендинги, spa приложения.</p><br>
+                    <p>проходи 🚪</p>
+                    <p>расскажу о себе 😃</p>
+                </div>
+            </div>
+        </div>
+        <div class="parallax__header">
+            <div id="scene">
+                <div data-depth="2">
+                    <div class="layer-1">
+                        <img src="./img/chel.png" alt="">
+                    </div>
+                </div>
+                <div data-depth="0.4">
+                    <div class="layer-2">
+                        <span>made by Ilya Kaigorodov <img src="./img/hipster.svg" width="50px"alt=""></span>
+                    </div>
+                </div>
+                <div data-depth="0.3">
+                    <div class="layer-3">
+                        <span>Здравствуй, друг!</span>
+                    </div>
+                </div>
+                <div data-depth="0.8">
+                    <div class="layer-4">
+                        <p>Я занимаюсь веб разработкой: сайты, лендинги, spa приложения.</p><br>
+                        <p>проходи 🚪</p>
+                        <p>расскажу о себе 😃</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    
+</header>
+<section class="about" id="about">
+    <div class="container">
+        <div class="about__title wow bounce" data-wow-delay="0.5s" data-wow-iteration="3">
+            Давай немного расскажу о себе
+        </div>
+        <div class="about__item">
+            <div class="about__item_text">
+                Меня зовут Илья.<br>
+                Мне 20 лет, живу  в городе Барнаул.<br>
+                📕 В моём арсенале следующее вооружение:<br>
+                <p>✔️ HTML и CSS</p>
+                <p>✔️ Препроцессоры CSS (Sass, Less, Stylus и т. д.)</p> 
+                <p>✔️ JavaScript</p>
+                <p>✔️ кросс-браузерная и кросс-платформенная разработка</p>
+                <p>✔️ адаптивная и отзывчивая верстка</p> 
+            </div>
+            <div class="about__item_link">
+                Связаться со мной можно:
+                <a href="tel:+79609618289">Whatsapp</a><br>
+                <a href="https://vk.com/ilysha_oo" target="_blank">Vk</a><br>
+                <a href="mailto:ikraised@yandex.ru">Email</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="work" id="work">
+    <div class="container">
+        <div class="work__title wow slideInUp">
+            Портфолио
+        </div>
+        <div class="work__item">
+            <div class="border-box">
+                <div class="border">
+                    <div class="work__slider_container">
+                        <div class="work__slider">
+                            <img src="./img/slider-4.png" class="work__slider_img slider-active" alt="">
+                            <img src="./img/slider-5.png" class="work__slider_img" alt="">
+                            <img src="./img/slider-0.png" class="work__slider_img" alt="">
+                            <img src="./img/slider-1.png" class="work__slider_img" alt="">
+                            <img src="./img/slider-2.png" class="work__slider_img" alt="">
+                            <img src="./img/slider-3.png" class="work__slider_img" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-btn">
+                <a class="slider__btn slider__btn_prev" data-target="prev" href="#">назад</a>
+                <a class="slider__btn slider__btn_next" data-target="next" href="#">вперёд</a>
+            </div>
+            <div class="work-item">
+                <div class="work__text wow swing">
+                    <p>На слайдере показаны мои работы.</p>
+                    🔹 Работы выполняю качетсвенно <br>
+                    🔹 Учитываю все пожелания заказчика<br>
+                    🔹 Исользую анимации и паралакс эффекты<br>
+                    🔹 Отдельное внимание уделяю адаптивности<br>
+                </div>
+                <div class="work__subtext wow swing">
+                    🔸 Постоянное развитие и прокачка навыков<br>
+                    🔸 Внимание к мелочам<br>
+                    🔸 Особое внимание к визуальной составляющей<br>
+                    🔸 Желаниие работать в этой сфере
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="footer" id="footer">
+    <div class="container">
+        <div class="footer__title wow zoomIn" data-wow-duration="0.3s" data-wow-delay="0.2s" >
+            Спасибо что зашёл
+        </div>
+        <div class="footer__text wow zoomIn">
+            Если остались какие то вопросы можешь написать мне, и я всё тебе расскажу.<br>
+            <p>До встречи,друг 🔥</p>
+        </div>
+        <div class="footer__copy">
+            <div class="footer-link">
+                <div class="footer__link-title">
+                    Связаться со мной можно:
+                </div>
+                <a href="tel:+79609618289">Whatsapp</a><br>
+                <a href="https://vk.com/ilysha_oo" target="_blank">Vk</a><br>
+                <a href="mailto:ikraised@yandex.ru">Email</a>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="./js/scroll.js"></script>
+<script src='./js/parallax.min.js'></script>
+<script>
+    var scene = document.getElementById('scene');
+    var parallaxInstance = new Parallax(scene);
+</script>
+<script src="./js/slider.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>

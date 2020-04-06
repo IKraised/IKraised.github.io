@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,500,600,700,800&display=swap&subset=cyrillic');
+@import './reset.css';
+@import './header.css';
+@import './about.css';
+@import './workex.css';
+@import './footer.css';
+@import './media.css';
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+::-webkit-scrollbar {
+    width: 11px;
+}
+::-webkit-scrollbar-track{
+    background-color: #d4d4d4;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #6495ED;
+    border-radius: 8px;
+    border: 2px solid black;
+}

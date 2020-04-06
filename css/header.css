@@ -1,0 +1,72 @@
+header{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #e6e6e6;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 22;
+    padding-top: 40px;
+}
+.header__nav_link{
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    background-color: transparent;
+    padding: 5px 10px;
+    transition: all 0.3s ease-in-out;
+    list-style: none;
+}
+.header__nav_link:after{
+    display: block;
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: blue;
+    transition: width .3s ease-in-out;
+}
+.header__nav_link:hover:after{
+    width: 100%;
+}
+
+
+/* ТУт параллакс */
+
+
+.layer-1{
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+.layer-2{
+    position: absolute;
+    top: 480px;
+    right: -1200px;
+}
+.layer-3{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    font-size: 60px;
+    text-shadow: 10px 10px 20px #000;
+}
+.layer-4{
+    position: absolute;
+    top: 250px;
+    font-size: 30px;
+    text-shadow: 10px 10px 20px #000;
+    width: 330px;
+}
+
+.mobile__header{
+    display: none;
+}
