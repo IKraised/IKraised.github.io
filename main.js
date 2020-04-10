@@ -12,4 +12,20 @@
     sliderBlock.addEventListener('click', slider.controllerClick.bind(slider));
     sliderBlock.addEventListener('mouseenter', slider.controllerHover.bind(slider));
     sliderBlock.addEventListener('mouseleave', slider.controllerHover.bind(slider));
+
+
+    const anchors = document.querySelectorAll('.header__nav_link');
+
+    for (let anchor of anchors) {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault()
+        
+        const blockID = anchor.getAttribute('href');
+        
+        document.querySelector(blockID).scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+        });
+    });
+    }
 })();
